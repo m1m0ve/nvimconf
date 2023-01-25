@@ -4,7 +4,7 @@ KB - Anne 2 Pro
 Mouse - G-Pro Superlight
 
 
-
+```
 Dell XPS 15 2022:
 
 space@ardua
@@ -23,4 +23,4 @@ CPU: 12th Gen Intel i9-12900HK (20) @ 4.900GHz
 GPU: Intel Alder Lake-P
 GPU: Nvidia RTX 3060 Ti (Disabled on arch)
 Memory: 7393MiB / 31772MiB
-
+```
