@@ -1,5 +1,7 @@
 require('rose-pine').setup({
-    disable_background = true
+    disable_background = true,
+    disable_float_background = true,
+    dark_variant = 'moon'
 })
 
 function ColorMyPencils(color)
