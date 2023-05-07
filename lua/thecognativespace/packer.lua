@@ -53,9 +53,7 @@ return require('packer').startup(function(use)
 -- Other plugins
 
 use("folke/zen-mode.nvim")
-use("github/copilot.vim")
-use('andweeb/presence.nvim')
-
+:
 use({
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
@@ -94,14 +92,14 @@ use {
         require('neorg').setup {
             load = {
                 ["core.defaults"] = {}, -- Loads default behaviour
-                ["core.norg.concealer"] = {
+                ["core.concealer"] = {
                 }, -- Adds pretty icons to your documents
-                ["core.norg.dirman"] = { -- Manages Neorg workspaces
+                ["core.dirman"] = { -- Manages Neorg workspaces
                     config = {
                         workspaces = {
-                            notes = "~/Personal/Notes/org/",
+                            org = "~/notes/org/",
                         },
-                        default_workspace = "notes",
+                        default_workspace = "org",
                     },
                 },
             },
